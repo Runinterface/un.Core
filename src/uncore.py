@@ -7,3 +7,8 @@ app = Flask(__name__)
 
 def index():
     return 'Hello!'
+
+
+@app.route('/kek')
+def kek():
+    return 'sada23!'
